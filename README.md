@@ -5,10 +5,10 @@
 
 ## Instalação
 
-###Link Download Oracle XE
+### Link Download Oracle XE
  - https://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html
 
-###LinK Download para SQL DEVELOPER
+### LinK Download para SQL DEVELOPER
 
 - https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html
 
