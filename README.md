@@ -16,7 +16,7 @@
 
 ### Criando uma Tablespace
 
-'''
+```
 create tablespace curso
 datafile
 'C:\oraclexe\app\oracle\oradata\XE\curso.dbf'
@@ -25,7 +25,7 @@ online
 permanent
 extent management local autoallocate
 segment space management auto;
-'''
+```
 
 **Helpers**
 
