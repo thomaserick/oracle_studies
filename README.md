@@ -11,4 +11,4 @@
 
 
 **Helpers**
-[Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
+- [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
