@@ -60,9 +60,9 @@
 - (C)onsistência
   - Mantem a consistência do Banco de Dados.
 - (I)solamento
-  -Transação nao torna visivel para as outras ate que seja encerrada com sucesso.
+  - Transação nao torna visivel para as outras ate que seja encerrada com sucesso.
 - (D)urabilidade
-  -As alterações feitas por uma transação devem persistir, mesmo se houver falhas subsequentes no sistema.
+  - As alterações feitas por uma transação devem persistir, mesmo se houver falhas subsequentes no sistema.
 
 ## CRUD (4 operações basicas)
 
