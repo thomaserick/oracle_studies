@@ -119,7 +119,8 @@ DROP TABLESPACE curso
 #Scripts
 
 - SELECT USER FROM DUAL; (Tabela Virtual do oracle)
-- Dar permissão das tabelas para Aluno
+
+**Dar permissão das tabelas para Aluno**
 
 ```
 GRANT select ON HR.COUNTRIES TO ALUNO WITH GRANT OPTION;
@@ -130,6 +131,8 @@ GRANT select ON HR.JOBS TO ALUNO WITH GRANT OPTION;
 GRANT select ON HR.LOCATIONS TO ALUNO WITH GRANT OPTION;
 GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 ```
+
+### Operadores
 
 - OPERADOR IGUAL (=)
 
@@ -185,6 +188,77 @@ SELECT * FROM HR.EMPLOYEES a
 WHERE a.JOB_ID='IT_PROG'
 AND a.SALARY>4800
 AND a.MANAGER_ID='103';
+```
+
+- OPERADOR DE ADICAO (+)
+
+```
+SELECT 1+3 AS RESULTADO FROM DUAL;
+
+SELECT a.FIRST_NAME,
+       a.SALARY,
+       a.SALARY+530 as salario_novo
+       FROM HR.EMPLOYEES a;
+```
+
+- OPERADOR DE SUBTRACAO (-)
+
+```
+
+SELECT 7-4 AS RESULTADO FROM DUAL;
+
+SELECT a.FIRST_NAME,
+       a.SALARY,
+       a.SALARY-530 as salario_novo
+       FROM HR.EMPLOYEES a;
+```
+
+- OPERADOR DE MULTIPLICAO (\*)
+
+```
+SELECT 7*4 AS RESULTADO FROM DUAL;
+
+SELECT (7*4)*-1 AS RESULTADO FROM DUAL;
+
+SELECT a.FIRST_NAME,
+       a.SALARY,
+       a.SALARY*1.10 as salario_novo
+       FROM HR.EMPLOYEES a;
+
+
+SELECT a.FIRST_NAME,
+       a.SALARY,
+       a.SALARY*0.10 as valor_acresc,
+       a.SALARY*1.10 as salario_novo
+       FROM HR.EMPLOYEES a;
+```
+
+- OPERADOR DE DIVISAO (/)
+
+```
+SELECT 2/4 AS RESULTADO FROM DUAL;
+
+SELECT 4/2 AS RESULTADO FROM DUAL;
+
+SELECT a.FIRST_NAME,
+       a.SALARY,
+       a.SALARY/10 as salario_novo
+       FROM HR.EMPLOYEES a;
+```
+
+- OPERADOR MOD (%)
+
+```
+SELECT MOD(10,5) AS RESULTADO FROM DUAL;
+
+SELECT MOD(10,3) AS RESULTADO FROM DUAL;
+```
+
+- Exmpressoes
+
+```
+select 2*4/3+3 from dual;
+select ((2*4)/3)+3 from dual;
 ```
 
 **Helpers**
