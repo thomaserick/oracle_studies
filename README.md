@@ -424,40 +424,162 @@ and cod_uf='15';
 - OPERADOR IS NULL
 ```
 
-    select * from senso
-    where regiao is null;
+select \* from senso
+where regiao is null;
 
 ```
 
 - OPERADOR HAVING
 ```
 
-    select cod_uf,estado,count(*) as qtd
-    from senso
-    where ano='2014'
-    group by cod_uf,estado having count(cod_mun)>500;
+select cod_uf,estado,count(\*) as qtd
+from senso
+where ano='2014'
+group by cod_uf,estado having count(cod_mun)>500;
 
 ```
 
 - OPERADOR HAVING
 ```
 
-    select cod_uf,estado,count(*)qtd
-    from senso
-    where ano='2014'
-    group by cod_uf,estado having count(cod_mun)<=500
-    order by 3 desc ;
+select cod_uf,estado,count(\*)qtd
+from senso
+where ano='2014'
+group by cod_uf,estado having count(cod_mun)<=500
+order by 3 desc ;
 
 ```
 
 - OPERADOR HAVING
 ```
 
-    select cod_uf,estado,count(cod_mun)qtd,
-                  sum(populacao)
-    from senso
-    where ano='2014'
-    group by cod_uf,estado having sum(populacao)>5000000;
+select cod_uf,estado,count(cod_mun)qtd,
+sum(populacao)
+from senso
+where ano='2014'
+group by cod_uf,estado having sum(populacao)>5000000;
+
+```
+
+## Linguagem
+
+- DML (Data ManipulationLanguage)
+  - Gerenciamento de dados  do banco
+    - SELECT
+    - INSERT
+    - UPDATE
+    - DELETE
+
+- DDL (Data Definition Language)
+  - Estrutura de dados ou esquemas
+    - CREATE
+    - ALTER
+    - DROP
+    - TRUNCATE
+
+- DCL (Data Control Language)
+  - Definir acesso/controle dos dados/objetos
+    - GRANT -> Atribui privilégios de acesso do usuário a objetos do banco de dados
+    - REVOKE -> remove os privilégios de acesso aos objetos obtidos pelo GRANT
+
+- TCL (Transaction Control Languade)
+  - START TRANSACTION
+  - COMMIT
+  - SAVEPOINT
+  - ROLLBACK
+
+
+### Exercicios DML
+
+```
+
+CREATE TABLE FUNCIONARIOS
+(
+ID INT NOT NULL,
+NOME VARCHAR2(50) NOT NULL,
+SALARIO DECIMAL(10,2),
+SETOR VARCHAR2(30),
+PRIMARY KEY (id)
+);
+
+```
+
+- Criar numerador automático
+```
+
+CREATE SEQUENCE ID_FUNC
+START WITH 1
+INCREMENT BY 1
+NOCACHE;
+
+```
+- DML SELECT
+```
+
+SELECT \* FROM funcionarios;
+
+SELECT id,nome,salario,setor AS depto
+FROM funcionarios;
+
+```
+
+- DML INSERT
+```
+
+INSERT INTO funcionarios (ID,nome,salario) VALUES (ID_FUNC.NEXTVAL,'Pedro',1000);
+INSERT INTO funcionarios (ID,nome,salario) VALUES (ID_FUNC.NEXTVAL,'Cleiton',1080);
+INSERT INTO funcionarios (ID,nome,salario,setor) VALUES (ID_FUNC.NEXTVAL,'Joao',1000,'');
+INSERT INTO funcionarios (ID,nome,salario,setor) VALUES (ID_FUNC.NEXTVAL,'Alexandre',3000,'');
+INSERT INTO funcionarios (ID,nome,salario,setor) VALUES (ID_FUNC.NEXTVAL,'Jose',2000,'');
+
+```
+
+- simulando erro
+```
+
+INSERT INTO funcionarios (ID,nome,salario) VALUES (ID_FUNC.NEXT_VAL,'Pedro','asasaasas');
+
+```
+
+- DML UPDATE
+```
+
+UPDATE funcionarios SET salario = 1500
+WHERE id=1;
+
+```
+
+- OU Aumento de 50% sobre Salário atual.
+```
+
+UPDATE funcionarios SET salario=salario\*1.5
+WHERE id='2';
+
+```
+
+- exemplo update com mais de um campo
+```
+
+UPDATE funcionarios SET salario=salario\*1.5,setor='TI'
+WHERE id<>'1';
+
+```
+
+- DML DELETE
+```
+
+DELETE
+FROM funcionarios
+WHERE id='1';
+
+```
+
+- DML SELECT EVIDENCIA DA EXCLUSAO
+```
+
+SELECT \*
+FROM funcionarios;
+-- WHERE id='1';
 
 ```
 
