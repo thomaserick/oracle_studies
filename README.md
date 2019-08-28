@@ -501,7 +501,7 @@ group by cod_uf,estado having sum(populacao)>5000000;
   - SAVEPOINT
   - ROLLBACK
 
-### Exercicios DML
+### Exercícios DML
 
 ```
 
@@ -605,7 +605,7 @@ FROM funcionarios;
 
 ```
 
-### Exercicios DDL
+### Exercícios DDL
 
 - DDL CRIANDO TABELA
 
@@ -665,7 +665,7 @@ FOREIGN KEY(matricula) REFERENCES funcionario(matricula)
 
 ```
 
-- DDL SEQUENCIA TRANSACACAO
+- DDL SEQUENCIA TRANSAÇÃO
 
 ```
 
@@ -698,9 +698,8 @@ CREATE INDEX ix_func2 ON funcionario(cidade,pais);
 
 ALTER TABLE funcionario ADD genero CHAR(1);
 
+SELECT \* FROM funcionario
 ```
-
-- SELECT \* FROM funcionario
 
 - Renomeando campo/colunas da tabela
 
@@ -830,7 +829,7 @@ CREATE INDEX IX_FUNC1 ON FUNCIONARIOS (NOME)
 
 ```
 
-- CRIANDO PROCEDURvE procedure
+- CRIANDO PROCEDURE
 
 ```
 
@@ -885,9 +884,9 @@ TRUNCATE TABLE SENSO;
 
 DDL TRUNCATE VERIFICANDO REGISTROS
 
-```
+SELECT * FROM FUNCIONARIOS;
 
-SELECT \* FROM FUNCIONARIOS;
+```
 
 - CRIANDO TABELA TEMPORARIA BK EM TABELA TEMPORARIA
 
@@ -903,12 +902,12 @@ SETOR VARCHAR2(30)
 
 ```
 
-- FAZENDO BK NA TABELAS TEMPORARIA
+- FAZENDO BK NA TABELAS TEMPORARIA SELECIONANDO A TABELA FUNCIONARIOS
 
 ```
 
 INSERT INTO TMP_FUNCIONARIOS
-SELECT \* FROM FUNCIONARIOS;
+SELECT * FROM FUNCIONARIOS;
 
 ```
 
@@ -923,7 +922,3 @@ SELECT \* FROM TMP_FUNCIONARIOS;
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
-
-```
-
-```
