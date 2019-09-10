@@ -136,12 +136,9 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 ### Exercícios
 
-- Comparação
-  - exercícios
-- Matemáticos
-  - exercícios
-- Lógica
-  - exercícios
+- [Comparação](https://github.com/thomaserick/oracle_studies/blob/master/scripts/comparacao.md)
+- [Matemáticos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/matematicos.md)
+- [Lógica](https://github.com/thomaserick/oracle_studies/blob/master/scripts/logica.md)
 
 ## Linguagem
 
@@ -175,11 +172,11 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 ### Exercícios
 
-- DML
-- DDL
-- DCL GRANT
-- DCL Revoke
-- TCL
+- [DML](https://github.com/thomaserick/oracle_studies/blob/master/scripts/dml.md)
+- [DDL](https://github.com/thomaserick/oracle_studies/blob/master/scripts/ddl.md)
+- [DCL_GRANT](https://github.com/thomaserick/oracle_studies/blob/master/scripts/dclGrant.md)
+- [DCL_Revoke](https://github.com/thomaserick/oracle_studies/blob/master/scripts/dclRevoke.md)
+- [TCL](https://github.com/thomaserick/oracle_studies/blob/master/scripts/tcl.md)
 
 **Helpers**
 
