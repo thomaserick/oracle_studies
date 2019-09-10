@@ -89,7 +89,7 @@ CREATE INDEX ix_func2 ON funcionario(cidade,pais);
 
 ALTER TABLE funcionario ADD genero CHAR(1);
 
-SELECT \* FROM funcionario
+SELECT * FROM funcionario
 ```
 
 - Renomeando campo/colunas da tabela
@@ -306,6 +306,6 @@ SELECT * FROM FUNCIONARIOS;
 
 ```
 
-SELECT \* FROM TMP_FUNCIONARIOS;
+SELECT * FROM TMP_FUNCIONARIOS;
 
 ```

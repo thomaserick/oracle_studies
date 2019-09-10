@@ -142,7 +142,7 @@ CREATE TABLE uf
 
 ```
 
-select \* from senso
+select * from senso
 where nome_mun like ('A%')
 and cod_uf='35'
 and cod_uf='15';
@@ -162,7 +162,7 @@ and cod_uf='15';
 
 ```
 
-select \* from senso
+select * from senso
 where regiao is null;
 
 ```

@@ -26,7 +26,7 @@ NOCACHE;
 
 ```
 
-SELECT \* FROM funcionarios;
+SELECT * FROM funcionarios;
 
 SELECT id,nome,salario,setor AS depto
 FROM funcionarios;
@@ -94,7 +94,7 @@ WHERE id='1';
 
 ```
 
-SELECT \*
+SELECT *
 FROM funcionarios;
 -- WHERE id='1';
 
