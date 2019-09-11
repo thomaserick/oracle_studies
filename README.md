@@ -192,19 +192,19 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 ### Joins (Junções)
 
-- [JOINS(Junções)](https://github.com/thomaserick/oracle_studies/blob/master/scripts/joins.md)
+- [JOINS(Junções)](https://github.com/thomaserick/oracle_studies/blob/master/scripts/join.md)
 
   - Registro correspondetes em ambas as tabelas
 
-- LEFT JOIN
+- [LEFT JOIN](https://github.com/thomaserick/oracle_studies/blob/master/scripts/join.md)
 
   - Retorna todos os registros da tabela à esquerda
 
-- RIGHT JOIN
+- [RIGHT JOIN](https://github.com/thomaserick/oracle_studies/blob/master/scripts/join.md)
 
   - Retorna todos os registros da tabela à direita
 
-- FULL JOIN
+- [FULL JOIN](https://github.com/thomaserick/oracle_studies/blob/master/scripts/join.md)
   - Retorna todos os registros da tabela à direita e à esquerda
 
 **Helpers**
