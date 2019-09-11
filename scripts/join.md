@@ -43,6 +43,7 @@ create table disciplina
 ```
 
 - INSERINDO REGISTRO ALUNOS
+
   ```
   insert into alunos (id_aluno,nome) values (1,'Joao');
   insert into alunos (id_aluno,nome) values (2,'Maria');
@@ -51,7 +52,7 @@ create table disciplina
   insert into alunos (id_aluno,nome) values (5,'Henrique');
   ```
 
-* INSERINDO REGISTRO DISCIPLINAS
+- INSERINDO REGISTRO DISCIPLINAS
 
 ```
 
