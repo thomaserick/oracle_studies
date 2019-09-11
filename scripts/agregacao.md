@@ -137,10 +137,13 @@ group by a.ano
 ORDER BY a.ano ASC;
 ```
 
--Descobrindo qtd estados
+- Descobrindo qtd estados
+  - DISTINCT (sera contato apenas uma vez a UF)
 
 ```
 select count(distinct cod_uf) from senso;
+
+
 ```
 
 - exemplo
