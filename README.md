@@ -190,7 +190,7 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 - [UNION ALL](https://github.com/thomaserick/oracle_studies/blob/master/scripts/union.md)
   - Permitir valores duplicados
 
-### Joins (Junções)
+### JOINS (Junções)
 
 - [JOINS(Junções)](https://github.com/thomaserick/oracle_studies/blob/master/scripts/join.md)
 
@@ -206,6 +206,10 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 - [FULL JOIN](https://github.com/thomaserick/oracle_studies/blob/master/scripts/join.md)
   - Retorna todos os registros da tabela à direita e à esquerda
+
+### SUBQUERYS
+
+    - Uma subconsulta, é uma instrução SELECT que está condicionada dentro de outra SQL
 
 **Helpers**
 

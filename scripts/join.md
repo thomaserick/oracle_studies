@@ -51,9 +51,8 @@ create table disciplina
   insert into alunos (id_aluno,nome) values (5,'Henrique');
   ```
 
-```
+* INSERINDO REGISTRO DISCIPLINAS
 
-- INSERINDO REGISTRO DISCIPLINAS
 ```
 
 insert into disciplina (id_disciplina,nome_disc) values (1,'Fisica');
@@ -65,6 +64,7 @@ insert into disciplina (id_disciplina,nome_disc) values (5,'Programacao');
 ```
 
 - INSERINDO MATRICULAS DE ALUNOS
+
 ```
 
 insert into matricula values ('1','1','Noturno');
@@ -85,6 +85,7 @@ insert into matricula values ('5','4','Noturno');
 ```
 
 - INNER JOIN
+
 ```
 
 SELECT a.nome,c.nome_disc,b.periodo
@@ -97,6 +98,7 @@ ON b.id_disciplina=c.id_disciplina;
 ```
 
 - LEFT JOIN
+
 ```
 
     SELECT a.nome,c.nome_disc,b.periodo
@@ -109,6 +111,7 @@ ON b.id_disciplina=c.id_disciplina;
 ```
 
 - RIGHT JOIN
+
 ```
 
     SELECT a.nome,c.nome_disc,b.periodo
@@ -121,6 +124,7 @@ ON b.id_disciplina=c.id_disciplina;
 ```
 
 - FULL JOIN
+
 ```
 
     SELECT a.nome,c.nome_disc,b.periodo
@@ -155,6 +159,7 @@ order by 1;
 ```
 
 - LEFT JOIN
+
 ```
 
 SELECT a.employee_id,a.first_name,b.department_name,c.job_title
@@ -167,7 +172,8 @@ order by 1;
 
 ```
 
--  RIGHT JOIN
+- RIGHT JOIN
+
 ```
 
 SELECT a.employee_id,a.first_name,b.department_name,c.job_title
@@ -177,6 +183,8 @@ on a.department_id=b.department_id
 right join HR.JOBS c
 on a.job_id=c.job_id
 order by 1;
+
+```
 
 ```
 
