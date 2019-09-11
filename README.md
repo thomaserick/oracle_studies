@@ -178,6 +178,35 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 - [DCL_Revoke](https://github.com/thomaserick/oracle_studies/blob/master/scripts/dclRevoke.md)
 - [TCL](https://github.com/thomaserick/oracle_studies/blob/master/scripts/tcl.md)
 
+## Linguagem SQL
+
+### Operador
+
+- [UNION](https://github.com/thomaserick/oracle_studies/blob/master/scripts/union.md)
+
+  - Usado para combinar o conjunto de resultados de duas ou mais instruções.
+  - As colunas devem ter tipos de dados semelhantes
+
+- [UNION ALL](https://github.com/thomaserick/oracle_studies/blob/master/scripts/union.md)
+  - Permitir valores duplicados
+
+### Joins (Junções)
+
+- [JOINS(Junções)](https://github.com/thomaserick/oracle_studies/blob/master/scripts/joins.md)
+
+  - Registro correspondetes em ambas as tabelas
+
+- LEFT JOIN
+
+  - Retorna todos os registros da tabela à esquerda
+
+- RIGHT JOIN
+
+  - Retorna todos os registros da tabela à direita
+
+- FULL JOIN
+  - Retorna todos os registros da tabela à direita e à esquerda
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
