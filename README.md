@@ -209,7 +209,44 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 ### SUBQUERYS
 
-    - Uma subconsulta, é uma instrução SELECT que está condicionada dentro de outra SQL
+- [Subquerys](https://github.com/thomaserick/oracle_studies/blob/master/scripts/subquerys.md)
+
+- Uma subconsulta, é uma instrução SELECT que está condicionada dentro de outra SQL
+
+### Funções de Agregação
+
+- Executam um cálculo em um conjunto de valores e retornam um único valor
+- ignoram valores nulos
+- são usadas com a cláusula GROUP BY
+
+**AVG**
+
+- Retorna a média dos valores em um grupo.
+- valores nulos são ignorados
+
+**MIN**
+
+- Retorna o valor mínimo na expressão
+
+**MAX**
+
+- Retorna o valor máxima na expressão
+
+**SUM**
+
+- Retorna a soma de todos os valores ou somente os valores DISTINCT na expresão
+
+**COUNT**
+
+- Retorna o número de itens de um grupo
+
+**STDDEV**
+
+- Retorna o desvio padrão estatístico de todos os valores da expressão especifica
+
+**VARIANCE**
+
+- Determina a variância de n,ignorando valores nulos
 
 **Helpers**
 
