@@ -1,9 +1,11 @@
 ## Subselect
 
-select _ from HR.EMPLOYEES;
-select _ from HR.JOB*HISTORY;
+```
+select * from HR.EMPLOYEES;
+select * from HR.JOB*HISTORY;
 select * from HR.DEPARTMENTS;
-select \_ from HR.JOBS;
+select * from HR.JOBS;
+```
 
 - EXEMPLO DE SUBSELECT 1 OPERADOR IN
 
