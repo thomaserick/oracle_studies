@@ -314,6 +314,26 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 - Devolve a posição da primeira ocorrência de string2 dentro de string1
 
+### Funções de Classificação
+
+**RANK**
+
+- Retorna um valor de classificação em cada linha
+
+**NTILE**
+
+- Distribui as linahs de uma partição ordenada em um número de grupos especificado.
+
+**DENSE_RANK**
+
+- Retorna a classificação de linha dentro da partição de um conjunto de resultados
+
+**ROW_NUMBER**
+
+- Retorna o número sequencial de uma linha em uma partição de um conjunto de resultados
+
+-
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
