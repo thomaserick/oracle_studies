@@ -248,6 +248,72 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 - Determina a variância de n,ignorando valores nulos
 
+### Funções de Caracteres
+
+**ASCII**
+
+- Retorna o valor do código ASCII do caracter mais à esquerda
+
+**LTRIM**
+
+- Retorna uma expressão de caracter após remover espaços em branco à esquerda
+
+**RTRIM**
+
+- Retorna uma expressão de caracter após remover espaços em branco à direita
+
+**TRIM**
+
+- Trunca espaços em branco
+
+**CONCAT**
+
+- Faz a concatenação de odis ou mais valores
+
+**REPLACE**
+
+- Substitui todas as ocorrências de um valor por outro valor
+
+**RPDA/LPAD**
+
+- Repete um valor da cadeia de caracteres um número específico de vezes
+
+**UPPER**
+
+- Converte caracteres minusculos em maiúsculos
+
+**LOWER**
+
+- Converte caracteres maiúsculos em minúsculos
+
+**REVERSE**
+
+- Inverte um valor da cadeia de caracteres
+
+**LENGHT**
+
+- Retorna o numero de caracteres, excluindo os espaços em braco
+
+**SUBSTR**
+
+- Retorna um substring de caracteres com dados de caracteres
+
+**INITCAP**
+
+- Impõe uma letra maiúscula na primeira letra de cada palavra
+
+**TRANSLATE**
+
+- Substitui um caracter por outro
+
+**DECODE**
+
+- Decodifica a expressão se for verdade o valor da expressão
+
+**INSTR**
+
+- Devolve a posição da primeira ocorrência de string2 dentro de string1
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
