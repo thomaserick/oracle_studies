@@ -380,6 +380,20 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 - Devolve o valor elevado a N
 
+## Funções de Criptografia
+
+[**RAWTOHEX**]
+
+- Converte os caracteres para Hexadecimal
+
+[***DBMS_OBFUSCATION_TOOLKIT**]
+
+- Disponibiliza o método MD5
+
+[**UTL_RAW**]
+
+- Manipulação de dados, tendo como foco a conversão dos tipos.
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
