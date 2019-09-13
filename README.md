@@ -332,7 +332,15 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 - Retorna o número sequencial de uma linha em uma partição de um conjunto de resultados
 
--
+### Funções de Controle de Fluxo
+
+**CASE**
+
+- Case operador
+
+**NULLIF()**
+
+- Return NULL
 
 **Helpers**
 
