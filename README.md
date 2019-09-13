@@ -219,7 +219,7 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 - ignoram valores nulos
 - são usadas com a cláusula GROUP BY
 
-**AVG**
+[**AVG**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/subquerys.md)
 
 - Retorna a média dos valores em um grupo.
 - valores nulos são ignorados
