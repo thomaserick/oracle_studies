@@ -382,17 +382,23 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 ## Funções de Criptografia
 
-[**RAWTOHEX**]
+[**RAWTOHEX**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/criptografia.md)
 
 - Converte os caracteres para Hexadecimal
 
-[***DBMS_OBFUSCATION_TOOLKIT**]
+[**\*DBMS_OBFUSCATION_TOOLKIT**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/criptografia.md)
 
 - Disponibiliza o método MD5
 
-[**UTL_RAW**]
+[**UTL_RAW**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/criptografia.md)
 
 - Manipulação de dados, tendo como foco a conversão dos tipos.
+
+## Funções de Limite
+
+[**ROWNUM**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/limite.md)
+
+- Limit de registro
 
 **Helpers**
 
