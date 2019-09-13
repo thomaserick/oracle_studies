@@ -180,7 +180,7 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 ## Linguagem SQL
 
-### Operador
+## Operador
 
 - [UNION](https://github.com/thomaserick/oracle_studies/blob/master/scripts/union.md)
 
@@ -190,7 +190,7 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 - [UNION ALL](https://github.com/thomaserick/oracle_studies/blob/master/scripts/union.md)
   - Permitir valores duplicados
 
-### JOINS (Junções)
+## JOINS (Junções)
 
 - [JOINS(Junções)](https://github.com/thomaserick/oracle_studies/blob/master/scripts/join.md)
 
@@ -207,140 +207,178 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 - [FULL JOIN](https://github.com/thomaserick/oracle_studies/blob/master/scripts/join.md)
   - Retorna todos os registros da tabela à direita e à esquerda
 
-### SUBQUERYS
+## SUBQUERYS
 
 - [Subquerys](https://github.com/thomaserick/oracle_studies/blob/master/scripts/subquerys.md)
 
 - Uma subconsulta, é uma instrução SELECT que está condicionada dentro de outra SQL
 
-### Funções de Agregação
+## Funções de Agregação
 
 - Executam um cálculo em um conjunto de valores e retornam um único valor
 - ignoram valores nulos
 - são usadas com a cláusula GROUP BY
 
-[**AVG**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/subquerys.md)
+[**AVG**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/agregacao.md)
 
 - Retorna a média dos valores em um grupo.
 - valores nulos são ignorados
 
-**MIN**
+[**MIN**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/agregacao.md)
 
 - Retorna o valor mínimo na expressão
 
-**MAX**
+[**MAX**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/agregacao.md)
 
 - Retorna o valor máxima na expressão
 
-**SUM**
+[**SUM**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/agregacao.md)
 
 - Retorna a soma de todos os valores ou somente os valores DISTINCT na expresão
 
-**COUNT**
+[**COUNT**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/agregacao.md)
 
 - Retorna o número de itens de um grupo
 
-**STDDEV**
+[**STDDEV**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/agregacao.md)
 
 - Retorna o desvio padrão estatístico de todos os valores da expressão especifica
 
-**VARIANCE**
+[**VARIANCE**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/agregacao.md)
 
 - Determina a variância de n,ignorando valores nulos
 
-### Funções de Caracteres
+## Funções de Caracteres
 
-**ASCII**
+[**ASCII**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Retorna o valor do código ASCII do caracter mais à esquerda
 
-**LTRIM**
+[**LTRIM**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Retorna uma expressão de caracter após remover espaços em branco à esquerda
 
-**RTRIM**
+[**RTRIM**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Retorna uma expressão de caracter após remover espaços em branco à direita
 
-**TRIM**
+[**TRIM**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Trunca espaços em branco
 
-**CONCAT**
+[**CONCAT**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Faz a concatenação de odis ou mais valores
 
-**REPLACE**
+[**REPLACE**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Substitui todas as ocorrências de um valor por outro valor
 
-**RPDA/LPAD**
+[**RPDA/LPAD**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Repete um valor da cadeia de caracteres um número específico de vezes
 
-**UPPER**
+[**UPPER**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Converte caracteres minusculos em maiúsculos
 
-**LOWER**
+[**LOWER**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Converte caracteres maiúsculos em minúsculos
 
-**REVERSE**
+[**REVERSE**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Inverte um valor da cadeia de caracteres
 
-**LENGHT**
+[**LENGHT**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Retorna o numero de caracteres, excluindo os espaços em braco
 
-**SUBSTR**
+[**SUBSTR**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Retorna um substring de caracteres com dados de caracteres
 
-**INITCAP**
+[**INITCAP**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Impõe uma letra maiúscula na primeira letra de cada palavra
 
-**TRANSLATE**
+[**TRANSLATE**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Substitui um caracter por outro
 
-**DECODE**
+[**DECODE**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Decodifica a expressão se for verdade o valor da expressão
 
-**INSTR**
+[**INSTR**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/caracteres.md)
 
 - Devolve a posição da primeira ocorrência de string2 dentro de string1
 
-### Funções de Classificação
+## Funções de Classificação
 
-**RANK**
+[**RANK**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/classificacao.md)
 
 - Retorna um valor de classificação em cada linha
 
-**NTILE**
+[**NTILE**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/classificacao.md)
 
 - Distribui as linahs de uma partição ordenada em um número de grupos especificado.
 
-**DENSE_RANK**
+[**DENSE_RANK**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/classificacao.md)
 
 - Retorna a classificação de linha dentro da partição de um conjunto de resultados
 
-**ROW_NUMBER**
+[**ROW_NUMBER**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/classificacao.md)
 
 - Retorna o número sequencial de uma linha em uma partição de um conjunto de resultados
 
-### Funções de Controle de Fluxo
+## Funções de Controle de Fluxo
 
-**CASE**
+[**CASE**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/controleFluxo.md)
 
 - Case operador
 
-**NULLIF()**
+[**NULLIF()**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/controleFluxo.md)
 
 - Return NULL
+
+## Funções Matemáticas
+
+[**ABS**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/matematicas.md)
+
+- Retorna um valor absoluto(positivo) da expressão numérica
+
+[**DBMS_RANDOM**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/matematicas.md)
+
+- Retorna um valor float pseudoaleatório de 0 a 1
+
+[**ROUND**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/matematicas.md)
+
+- Arredonda o valor
+
+[**TRUNC**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/matematicas.md)
+
+- Trunca as casas decimais de um valor
+
+[**SQRT**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/matematicas.md)
+
+- Retorna a raiz quadrada de um expressão
+
+[**SIGN**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/matematicas.md)
+
+- Retorna -1 para negativo, 0 neutro , 1 positivo
+
+[**POWER**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/matematicas.md)
+
+- Eleva a potência de n o valor
+
+[**MOD**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/matematicas.md)
+
+- Retorna a sobra de uma expressão
+
+[**EXP**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/matematicas.md)
+
+- Devolve o valor elevado a N
 
 **Helpers**
 
