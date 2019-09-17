@@ -436,6 +436,20 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 - Devolve a data do próximo dia da semana especificado por c
 
+## Funções de Sistema
+
+[**USER**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/infoSytem.md)
+
+- Nome do utilizador Oracle que abriu a sessão
+
+  [**UID**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/infoSytem.md)
+
+- Mostra o número que a base de dados atribuiu ao utilizador
+
+  [**USEREN(arg)**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/infoSytem.md)
+
+- Envolve dados da sess~~ao atual,os valores de argumento podem ser vários
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
