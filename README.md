@@ -402,21 +402,39 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 ## Funções de Conversão
 
-[**CAST**]
+[**CAST**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/conversao.md)
 
 - Converte uma expressão de um tipo de dados em outro
 
-[**TO_CHAR(data)**]
+[**TO_CHAR(data)**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/conversao.md)
 
 - Converte data em String
 
-[**TO_DATE(string)**]
+[**TO_DATE(string)**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/conversao.md)
 
 - Converte Strinf em data
 
-[**NVL()**]
+[**NVL()**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/conversao.md)
 
 - Tratar valor nulo
+
+## Funções de Data Hora
+
+[**ADD_MONTHS**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/dataHora.md)
+
+- Adiciona n meses no calendário à data.
+
+[**MONTHS_BETWEEN\***](https://github.com/thomaserick/oracle_studies/blob/master/scripts/dataHora.md)
+
+- Determina numero de meses entre data1 e data2
+
+[**LAST_DAY**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/dataHora.md)
+
+- Devolve o último dia do mês de data1
+
+[**NEXT_DAY**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/dataHora.md)
+
+- Devolve a data do próximo dia da semana especificado por c
 
 **Helpers**
 
