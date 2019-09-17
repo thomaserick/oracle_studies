@@ -400,6 +400,24 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 - Limit de registro
 
+## Funções de Conversão
+
+[**CAST**]
+
+- Converte uma expressão de um tipo de dados em outro
+
+[**TO_CHAR(data)**]
+
+- Converte data em String
+
+[**TO_DATE(string)**]
+
+- Converte Strinf em data
+
+[**NVL()**]
+
+- Tratar valor nulo
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
