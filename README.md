@@ -461,9 +461,67 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
   ## TEMP TABLE
 
-  [**TEMPORARY**]
+  [**TEMPORARY**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/tempTable.md)
 
-  - Tabela criada será temporária, expira assim que a sessa ou transação terminar
+  - Tabela criada será temporária, expira assim que a sessa ou transação terminar.
+
+  ## PL/SQL
+
+- É uma linguagem de programação preceduralda Oracle
+
+  - loop
+  - while
+  - for
+  - arrays
+
+### Estrutura de Bloco PL/SQL
+
+```
+DELCARE(opcional)
+*variaveis
+BEGIN(obrigatório)
+- instruções PL/SQL
+
+EXCEPTION(opcional)
+*Ações a serem desempenhadas
+
+END;(obrigatorio)
+
+```
+
+### Tipos de Blocos
+
+- Anônimo
+
+```
+BEGIN
+ - statements
+[EXCEPTION]
+END;
+```
+
+- Procedimento
+
+```
+PROCEDURE name
+IS
+BEGIN
+-statements
+[EXCEPTION]
+END;
+```
+
+- Função
+
+```
+FUNCTION name
+RETURN datatype
+IS BEGIN
+-statements
+RETURN value;
+[EXCEPTION]
+END;
+```
 
 **Helpers**
 
