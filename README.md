@@ -468,6 +468,7 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
   ## PL/SQL
 
 - É uma linguagem de programação preceduralda Oracle
+- É case-insentive
 
   - loop
   - while
@@ -523,7 +524,24 @@ RETURN value;
 END;
 ```
 
-**Helpers**
+### Conjunto de Caracteres
+
+- Letras
+- Digitos
+- Símbolos
+  - ; -> Termina os statements e declarações
+  - % -> Indicador de atributo
+  - @ -> Indicador de localização
+  - <<e>> -> Delimitadores de labels
+  - := -> Atribuição de valor a variavel
+  - => -> Operador de associação
+  - .. -> Operador de range
+
+### Variáveis
+
+- Adote padrões para dar nomes a varáveis
+- Iniciar uma variavel ":=" ou DEFAULT
+  **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
 
