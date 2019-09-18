@@ -172,6 +172,7 @@ SELECT  a.hire_date,last_day(a.hire_date)Ult_dia from  HR.EMPLOYEES a;
   - Cenario para descobrir um data que acontece toda segunda quinta de cada cada mes;
     descobrindo data da proxima segunda feira - 1 – Domingo - 2 – Segunda-Feira - 3 – Terça-Feira - 4 – Quarta-Feira - 5 – Quinta-Feira - 6 – Sexta-Feira - 7 – Sábado.
 
+```
 select NEXT_DAY(TRUNC(SYSDATE), 2) from dual;
 
 select NEXT_DAY(NEXT_DAY(TRUNC(SYSDATE), 2),2) from dual;
@@ -181,17 +182,19 @@ SELECT TRUNC((MONTHS_BETWEEN(SYSDATE, TO_DATE('05/11/1977','dd/mm/yyyy')))/12) A
 SELECT TRUNC((MONTHS_BETWEEN(SYSDATE, TO_DATE('05/11/1977','dd/mm/yyyy')))) AS idade_MESES FROM DUAL
 
 ```
+
 - DIAS DE VIDA
+
 ```
 
 SELECT SYSDATE-TO_DATE('05/11/1977','dd/mm/yyyy') FROM DUAL;
 
 ```
+
 - DUAS DE VIDA
+
 ```
 
 SELECT TRUNC(SYSDATE-TO_DATE('05/11/1977','dd/mm/yyyy')) DIAS FROM DUAL;
-
-```
 
 ```
