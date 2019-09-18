@@ -450,6 +450,15 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 - Envolve dados da sess~~ao atual,os valores de argumento podem ser vários
 
+
+## Views
+- Tabela definida como tabela virtual 
+- **Vantagens**  
+  - Reuso  
+  - Segurança
+  - Simplificação do código
+
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
