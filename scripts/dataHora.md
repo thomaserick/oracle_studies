@@ -111,33 +111,33 @@ select a.first_name,a.hire_date orig,
 from HR.EMPLOYEES a
 ```
 
-- SUBTRAINDO DIAS
+- Subtraindo dias
 
 ```
 ALTER SESSION SET nls_date_format = 'dd-mm-yyyy hh24:mi:ss';
 ```
 
-- ADICIONANDO DIAS
+- Adicionando dias
 
 ```
 SELECT SYSDATE+5 FROM DUAL;
 ```
 
-- DIFERENCA ENTRE OS DIAS
+- Diferenca entre os dias
 
 ```
 
 SELECT TO_DATE(SYSDATE)-TO_DATE('2018-01-01') DIF_DIAS FROM DUAL;
 ```
 
-- ADICIONANDO HORAS
+- Adicionando horas
 
 ```
 ALTER SESSION SET nls_date_format = 'yyyy-mm-dd hh24:mi:ss';
 SELECT SYSDATE, SYSDATE+5/24 DATA_HORA_ADD FROM DUAL
 ```
 
-- ADICIONAR MESES
+- Adicionar meses
 
 ```
 
@@ -145,13 +145,13 @@ SELECT SYSDATE, SYSDATE+5/24 DATA_HORA_ADD FROM DUAL
 SELECT SYSDATE DATA_ATUAL, ADD_MONTHS(SYSDATE,2)ADD_MESES FROM DUAL;
 ```
 
-- SUBTRAIR MESES
+- Subtrair meses
 
 ```
 SELECT SYSDATE DATA_ATUAL, ADD_MONTHS(SYSDATE,-2)ADD_MESES FROM DUAL;
 ```
 
-- QTD DE MESES ENTRE DATAS
+- Qtd de meses entre datas
 
 ```
 SELECT  first_name,a.hire_date,
@@ -183,7 +183,7 @@ SELECT TRUNC((MONTHS_BETWEEN(SYSDATE, TO_DATE('05/11/1977','dd/mm/yyyy')))) AS i
 
 ```
 
-- DIAS DE VIDA
+- Dias de vida
 
 ```
 
@@ -191,7 +191,7 @@ SELECT SYSDATE-TO_DATE('05/11/1977','dd/mm/yyyy') FROM DUAL;
 
 ```
 
-- DUAS DE VIDA
+- Duas de vida
 
 ```
 

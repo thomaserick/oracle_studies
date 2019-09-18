@@ -450,14 +450,20 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 - Envolve dados da sess~~ao atual,os valores de argumento podem ser vários
 
+[## Views](https://github.com/thomaserick/oracle_studies/blob/master/scripts/views.md)
 
-## Views
-- Tabela definida como tabela virtual 
-- **Vantagens**  
-  - Reuso  
+- Tabela definida como tabela virtual
+- **Vantagens**
+
+  - Reuso
   - Segurança
   - Simplificação do código
 
+  ## TEMP TABLE
+
+  [**TEMPORARY**]
+
+  - Tabela criada será temporária, expira assim que a sessa ou transação terminar
 
 **Helpers**
 
