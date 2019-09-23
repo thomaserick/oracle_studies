@@ -541,6 +541,15 @@ END;
 
 - Adote padrões para dar nomes a varáveis
 - Iniciar uma variavel ":=" ou DEFAULT
+
+### Atributos
+
+- [TYPE](https://github.com/thomaserick/oracle_studies/blob/master/scripts/atributo.md)
+  - Campo
+- [ROWTYPE](https://github.com/thomaserick/oracle_studies/blob/master/scripts/atributo.md)
+
+  - Tabela toda
+
   **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
