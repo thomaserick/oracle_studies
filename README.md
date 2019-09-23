@@ -547,10 +547,13 @@ END;
 - [TYPE](https://github.com/thomaserick/oracle_studies/blob/master/scripts/atributo.md)
   - Campo
 - [ROWTYPE](https://github.com/thomaserick/oracle_studies/blob/master/scripts/atributo.md)
-
   - Tabela toda
 
-  **Helpers**
+### Tipo de registros
+
+- É uma coleção de valores individuais relacionados de alguma forma.
+
+**Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
 
