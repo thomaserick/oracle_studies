@@ -564,6 +564,14 @@ END;
   - [Global](https://github.com/thomaserick/oracle_studies/blob/master/scripts/escopo.md)
     - Para todos seus sub-blocos
 
+### Estrutura IF
+
+- [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/ifElse.md)
+
+### Estrutura Case
+
+- [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/case.md)
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
