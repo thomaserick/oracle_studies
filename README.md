@@ -572,6 +572,10 @@ END;
 
 - [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/case.md)
 
+### Estrutura GoTo
+
+- [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/goto.md)
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
