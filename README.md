@@ -553,6 +553,17 @@ END;
 
 - É uma coleção de valores individuais relacionados de alguma forma.
 
+### Escopo de Variaveis
+
+- Podemos referenciar a variável.
+
+  - [Local](https://github.com/thomaserick/oracle_studies/blob/master/scripts/escopo.md)
+
+    - Bloco onde esta declarado
+
+  - [Global](https://github.com/thomaserick/oracle_studies/blob/master/scripts/escopo.md)
+    - Para todos seus sub-blocos
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
