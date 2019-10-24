@@ -576,6 +576,11 @@ END;
 
 - [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/goto.md)
 
+### Estrutura LOOPFOR
+
+- Estrutura de repetição
+- [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/loopfor.md)
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
