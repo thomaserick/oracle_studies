@@ -579,7 +579,15 @@ END;
 ### Estrutura LOOPFOR
 
 - Estrutura de repetição
-- [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/loopfor.md)
+- [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/loopFor.md)
+
+### Estrutura LOOPWHILE
+
+- Estrutura de repetição
+
+  - Condition - Condição que será testada a cada interação do loop.
+
+- [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/loopWhile.md)
 
 **Helpers**
 
