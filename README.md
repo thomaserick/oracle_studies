@@ -595,6 +595,58 @@ END;
 
 - [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/loopWhile.md)
 
+### Excessões
+
+- Existe 3 tipos de excessões
+
+  - Erros predefinidos da Oracle
+
+    - no_data_found
+      - SELECT não retornou dados
+    - too_many_rows
+      - SELECT retornou mais de uma linha
+    - value_error
+      - Houve tentativa de operação ilegal
+    - invalid_number
+      - A conversão de uma string para um numero, falhou
+    - zero_divide
+      - ocorreu uma tentativa de dividir por zero
+    - dup_val_on_index
+    - cursor_already_open
+      - Houve uma tentativa de abrir um cursor que foi aberto anteriormente
+    - not_logger_on
+      - Uma chamada de banco de dados foi feita sem o usuário conectado
+    - transacton_becked_out
+      - Uma parte remota de uma transação teve "rollback"
+    - login_danied
+      - Um login no banco de dados falhou
+    - program_error
+      - A PL/SQL encontrou um problema interno
+    - storage_error
+      - A PL/SQL ficou sem memória ou memória esta corrompida
+
+  - Erros nao definidos da Oracle
+  - Erros definidos pelo usuário
+
+  - SQLCODE
+    - Retorna um valor numérico para o codigo de erro
+  - SQLERRM
+    - Retorna um caracter contendo a mensagem associada com o número do erro
+
+### Cursores
+
+- Cursor Implicito
+  - DML e comandos SELECT
+- Cursor Explícito
+  - Definidos pelo usuário para manipular registros SELECT
+
+### Functions
+
+- É semelhante a uma procedure
+- Sempre retorna infomações
+
+- [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/functions.md)
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
