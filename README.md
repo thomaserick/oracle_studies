@@ -142,7 +142,7 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
 
 ## Linguagem
 
-- DML (Data ManipulationLanguage)
+- DML (Data Manipulation Language)
 
   - Gerenciamento de dados do banco
     - SELECT
@@ -658,6 +658,17 @@ END;
   - IN OUT
 
   - [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/procedures.md)
+
+### Triggers
+
+- Tipos
+
+  - ROW LEVEL
+    - Usada para gravação de logs,Verificação de dados
+  - STATEMENT
+    - Tem a finalidade de tratar a execução de ações sobre tabelas
+
+- [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/triggers.md)
 
 **Helpers**
 
