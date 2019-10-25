@@ -647,6 +647,18 @@ END;
 
 - [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/functions.md)
 
+### Procedures
+
+- Bloco de instruções que executa uma ou mais tarefas
+- Contém cabeçalho e corpo
+- Parâmetros
+
+  - IN
+  - OUT
+  - IN OUT
+
+  - [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/procedures.md)
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
