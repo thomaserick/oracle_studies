@@ -670,6 +670,15 @@ END;
 
 - [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/triggers.md)
 
+### Packages
+
+- Coleção de Objetos PL/SQL , contém:
+
+  - Procedures
+  - Functions
+  - Cursores
+  - Declarações
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
