@@ -679,10 +679,18 @@ END;
   - Cursores
   - Declarações
 
+  ### Projeto - Mini Erp MultiEmpresas
+
+- [Diagrama](https://github.com/thomaserick/oracle_studies/blob/master/helpers/miniErp.png)
+
+- [Tabelas](https://github.com/thomaserick/oracle_studies/blob/master/scripts/miniErpTables.md)
+
+- [Triggers](https://github.com/thomaserick/oracle_studies/blob/master/scripts/miniErpTriggers.md)
+
+- [Procedures](https://github.com/thomaserick/oracle_studies/blob/master/scripts/miniErpProcedures.md)
+
+- [Views](https://github.com/thomaserick/oracle_studies/blob/master/scripts/miniErpViews.md)
+
 **Helpers**
 
 - [Format GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
-
-```
-
-```
