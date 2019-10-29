@@ -459,13 +459,13 @@ GRANT select ON HR.REGIONS TO ALUNO WITH GRANT OPTION;
   - Segurança
   - Simplificação do código
 
-  ## TEMP TABLE
+## TEMP TABLE
 
-  [**TEMPORARY**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/tempTable.md)
+[**TEMPORARY**](https://github.com/thomaserick/oracle_studies/blob/master/scripts/tempTable.md)
 
-  - Tabela criada será temporária, expira assim que a sessa ou transação terminar.
+- Tabela criada será temporária, expira assim que a sessa ou transação terminar.
 
-  ## PL/SQL
+## PL/SQL
 
 - É uma linguagem de programação preceduralda Oracle
 - É case-insentive
@@ -657,7 +657,7 @@ END;
   - OUT
   - IN OUT
 
-  - [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/procedures.md)
+- [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/procedures.md)
 
 ### Triggers
 
@@ -679,7 +679,7 @@ END;
   - Cursores
   - Declarações
 
-  ### Projeto - Mini Erp MultiEmpresas
+## Projeto - Mini Erp MultiEmpresas
 
 - [Diagrama](https://github.com/thomaserick/oracle_studies/blob/master/helpers/miniErp.png)
 
