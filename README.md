@@ -679,6 +679,13 @@ END;
   - Cursores
   - Declarações
 
+## PIVOT
+
+- Informações em um relatório com referência cruzadas com formato de planilha apartir de qualquer tabela relacional.
+- Transforma linhas em Colunas
+
+- [exemplos](https://github.com/thomaserick/oracle_studies/blob/master/scripts/pivot.md)
+
 ## Projeto - Mini Erp MultiEmpresas
 
 - [Diagrama](https://github.com/thomaserick/oracle_studies/blob/master/helpers/miniErp.png)
